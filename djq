@@ -9,7 +9,7 @@ local logicRoot = player:WaitForChild("PlayerGui"):WaitForChild("LogicHolder")
 local modulesDir = logicRoot:WaitForChild("ClientLoader"):WaitForChild("Modules")
 local ClientDataHandler = require(modulesDir:WaitForChild("ClientDataHandler"))
 local deleteRemote = ReplicatedStorage:WaitForChild("RemoteFunctions"):WaitForChild("DeleteUnit")
-local StartRolls = false
+local StartRolls = true
 
 local function Roll()
     local args = {
